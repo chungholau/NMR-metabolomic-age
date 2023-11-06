@@ -12,7 +12,7 @@ Metabolomic age models have been proposed for the study of biological aging, how
 
 **nightingale_name_conversion.csv**: This csv file gives information on how metabolic variable names were converted between cohorts/ dataset versions.
 
-## Instruction to use
+## User Instruction
 
 1. In order to apply these metabolomics models generated in the R environment, users first need to check their variable names are identical to those listed under the "UKB" column in the *nightingale_name_conversion.csv*.
 2. Cohort calibration / matching will be needed prior to generated the model predictions, expecially on Nightigale data generated post-2020. This can be performed using *pickUpUKBSampleTOCalibrate.R* as a template.
